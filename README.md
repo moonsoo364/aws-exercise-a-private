@@ -1,6 +1,6 @@
 # 개요
 
-'AWS 인프라 구축 가이드' 저자 깃의 script로 Code Deploy 실행이 안되서 해당 깃 파일을 내 깃에 받아서 코드 수정 후 다시 배포함
+'AWS 인프라 구축 가이드' 저자 깃의 script로 AWS CodeDeploy 실행이 안되서 해당 깃 파일을 내 깃에 받아서 코드 수정 후 다시 배포함
 
 [deopard님의 원본 git branch](https://github.com/deopard/aws-exercise-a/tree/code-deploy)
 
