@@ -1,6 +1,7 @@
 # 개요
 
 'AWS 인프라 구축 가이드' 저자 깃의 script로 Code Deploy 실행이 안되서 해당 깃 파일을 내 깃에 받아서 코드 수정 후 다시 배포함
+
 [deopard님의 원본 git branch](https://github.com/deopard/aws-exercise-a/tree/code-deploy)
 
 # 수정한 코드
@@ -12,7 +13,7 @@
 service nginx restart
 ```
 
-sudo 권한으로 부여하니 정상 실행 되었음
+sudo 권한으로 부여하니 정상 실행 되었음 다만 실무 환경에서는 자동화 스크립트 전체를 `sudo`로 실행하는 방식은 보안상 권장되지 않는다.
 
 ```bash
 sudo systemctl restart nginx
